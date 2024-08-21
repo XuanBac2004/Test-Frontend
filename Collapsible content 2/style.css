@@ -92,7 +92,7 @@ icon-icon {
 
 #dropdown-icon.rotate {
     transform: rotate(180deg);
-    transition: transform 0.5s ease;
+    transition: transform 1s ease;
 }
 
 #dropdown-icon.rotate-back {
@@ -114,13 +114,15 @@ icon-icon {
     height: 80vh;
 }
 
+/* Responsive full */
 @media only screen and (max-width : 1024px) {
-.container {
+    .container {
         padding: 20px 0;
         margin: 50px auto;
     }
 
-    .wedding-detail,.wedding-aisle {
+    .wedding-detail,
+    .wedding-aisle {
         width: 100%;
     }
 
@@ -129,17 +131,16 @@ icon-icon {
         text-align: justify;
         width: 90%;
     }
+
 }
 
-
+/* Responsive tablet */
 @media only screen and (min-width : 740px) and (max-width: 1024px) {
-    
     .wedding {
         grid-template-columns: 1fr;
         width: 100%;
     }
 
-    
 
     .party_img-aisle {
         width: 100%;
@@ -148,6 +149,7 @@ icon-icon {
 
 }
 
+/* Responsive mobile */
 @media only screen and (max-width : 740px) {
     .wedding {
         grid-template-columns: 1fr;
