@@ -106,12 +106,13 @@ icon-icon {
 
 .party {
     width: 100%;
-    padding-top: 20px;
+    padding-top: 15px;
+    padding-bottom: 20px;
 }
 
 .party_img-aisle {
     width: 100%;
-    height: 80vh;
+    height: 85vh;
 }
 
 /* Responsive full */
